@@ -83,6 +83,16 @@ git commit -m "Ejercicio 6 finalizado. Documentos actualizados a su siguiente ve
 
 
 #Ejercicio 7
+git add .
+git commit "Historial actualizado" #actualizamos el historial primero
+
+git checkout master #cambiamos de rama al main
+git merge Mejoras #hacemos el merge. No habrá conflictos ya que los documentos tienen diferente nombre. Así que los cambios se aceptan automáticamente
+
+git branch -d Mejoras #eliminamos la rama de mejoras
+
+git add .
+git commit -m "Ejercicio 7 finalizado. Ambas ramas fundidas en el main. Mejoras eliminado"
 
 
 
