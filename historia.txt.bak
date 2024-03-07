@@ -63,4 +63,22 @@ git checkout -b Mejoras #creamos la rama mejoras y saltamos a ella
 cd Procesos
 cd ControlDeCambios
 git add DP_ControldeCambios_Grupo2-v1_1
+cd ..
+cd ..
 git commit -m "Ejercicio 5 completado. Rama Mejoras añadida junto con el pdf"
+
+#aprovechamos y actualizamos tambien el historial
+git add .
+git commit "Historial actualizado"
+
+
+#EJERICIO 6
+cd Procesos
+cd ControlDeCambios
+git add DP_ControldeCambios_Grupo2-v3_1
+git add DP_ControldeCambios_Grupo2-v2.docx
+cd ..
+cd ..
+git commit -m "Ejercicio 6 finalizado. Documentos actualizados a su siguiente versión"
+
+
