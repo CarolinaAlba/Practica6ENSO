@@ -1,0 +1,18 @@
+#EJERCICIO 1
+mkdir Practica6GIT #creo el repositorio raiz
+cd Practica6GIT #me muevo a la carpeta
+git init #inicializo el repositorio
+
+mkdir Proyectos #creo la carpeta Proyectos
+mkdir Procesos #creo la carpeta Procesos
+
+cd Procesos
+mkdir ControlDeCambios #creo la carpeta Procesos
+cd .. #vuelvo al directorio raiz
+
+cd Proyectos
+mkdir Prj1 #creo la carpeta Procesos
+cd ..
+
+git add . #añado los cambios al área de preparación
+git commit -m "Ejercicio 1 finalizado. Estructura creada" #hago commit de los cambios
