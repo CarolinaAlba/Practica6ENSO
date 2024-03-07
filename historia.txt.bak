@@ -17,6 +17,7 @@ cd ..
 git add . #añado los cambios al área de preparación
 git commit -m "Ejercicio 1 finalizado. Estructura creada" #hago commit de los cambios
 
+
 #EJERCICIO 2
 git add historia.txt #creo este documento
 
@@ -26,9 +27,40 @@ git add DP_ControldeCambios_Grupo2-v1.docx #añado este documento
 
 git commit -m "Ejercicio 2 finalizado. Documento inicil añadido y documento de historia creado"
 
+
 #EJERCICIO 3
+cd ..
+cd ..
 git add .
 git commit -m "Ejercicio 3 finalizado. Commit de ejercicios 1 y 2 realizados previamente"
 
+
 #EJERCICIO 4
 git tag -a R1 -m "Estado del repositorio: R1" #Usamos una etiqueta anotada para marcar el estado actual del directorio
+git tag #comprobamos que se ha creado satisfactoriamente
+
+git add .
+git commit -m "Ejercicio 4 finalizado. Etiqueta creada"
+
+
+#ME HE DADO CUENTA DE QUE NO HABÍA AÑADIDO LAS PLANTILLAS EN BLANCO EN EL EJERCICIO 1.
+#Como en los documentos requeridos solo estaban los tres .doc, pense que se refería al
+#.doc que incluia las pllantillas en blanco. Ahora que he leido pdf en el ejercicio 5 me 
+#he dado cuenta. Así que ahora los incluyo
+
+cd Procesos
+cd ControlDeCambios
+
+git add DP_Plantillas_ControldeCambios_Grupo2-v2..xlsx
+git commit -m "Plantillas añadidas, por tanto ejericico 1 CORREGIDO"
+
+cd ..
+cd ..
+
+
+#EJERICICO 5
+git checkout -b Mejoras #creamos la rama mejoras y saltamos a ella
+cd Procesos
+cd ControlDeCambios
+git add DP_ControldeCambios_Grupo2-v1_1
+git commit -m "Ejercicio 5 completado. Rama Mejoras añadida junto con el pdf"
