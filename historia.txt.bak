@@ -27,3 +27,8 @@ git add DP_ControldeCambios_Grupo2-v1.docx #añado este documento
 git commit -m "Ejercicio 2 finalizado. Documento inicil añadido y documento de historia creado"
 
 #EJERCICIO 3
+git add .
+git commit -m "Ejercicio 3 finalizado. Commit de ejercicios 1 y 2 realizados previamente"
+
+#EJERCICIO 4
+git tag -a R1 -m "Estado del repositorio: R1" #Usamos una etiqueta anotada para marcar el estado actual del directorio
