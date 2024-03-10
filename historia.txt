@@ -140,6 +140,25 @@ git commit -m "Ejercicio 11 finalizado. Vuelta a la etiqueta R2. Documentos actu
 git tag -a R3 -m "Estado del repositorio: R3" #Usamos una etiqueta anotada para marcar el estado actual del directorio
 git commit -m "Ejercicio 11 finalizado. Etiqueta R3 creada"
 
-#Ejercicio 12
+#EJERCICIO 12
 git add .
 git commit -m "Historial actualizado" #actualizamos el historial
+
+git remote add origin https://github.com/CarolinaAlba/Practica6ENSO.git #enlazamos el local con el remoto
+git push origin master #hacemos push del main del local
+git push --tags #hacemos push de las etiquetas
+
+
+#EJERCICIO 13
+git pull origin master #traemos 
+
+
+#EJERCICIO 14
+git diff historia.txt
+
+#EJERCICIO 15
+git add .
+git commit -m "Historial actualizado" #actualizamos el historial
+git push origin master #hacemos el push final
+
+
