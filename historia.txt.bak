@@ -62,29 +62,29 @@ cd ..
 git checkout -b Mejoras #creamos la rama mejoras y saltamos a ella
 cd Procesos
 cd ControlDeCambios
-git add DP_ControldeCambios_Grupo2-v1_1.pdf
+git add DP_ControldeCambios_Grupo2-v1_1.docx
 cd ..
 cd ..
 git commit -m "Ejercicio 5 completado. Rama Mejoras añadida junto con el pdf"
 
 #aprovechamos y actualizamos tambien el historial
 git add .
-git commit "Historial actualizado"
+git commit -m "Historial actualizado"
 
 
 #EJERICIO 6
 cd Procesos
 cd ControlDeCambios
-git add DP_ControldeCambios_Grupo2-v3_1.xlsx
+git add DP_Plantillas_ControldeCambios_Grupo2-v3.xlsx
 git add DP_ControldeCambios_Grupo2-v2.docx
 cd ..
 cd ..
 git commit -m "Ejercicio 6 finalizado. Documentos actualizados a su siguiente versión"
 
 
-#Ejercicio 7
+#EJERCICIO 7
 git add .
-git commit "Historial actualizado" #actualizamos el historial primero
+git commit -m "Historial actualizado" #actualizamos el historial primero
 
 git checkout master #cambiamos de rama al main
 git merge Mejoras #hacemos el merge. No habrá conflictos ya que los documentos tienen diferente nombre. Así que los cambios se aceptan automáticamente
@@ -95,7 +95,8 @@ git add .
 git commit -m "Ejercicio 7 finalizado. Ambas ramas fundidas en el main. Mejoras eliminado"
 
 
-#Ejercicio 8
+
+#EJERCICIO 8
 cd Procesos
 cd ControlDeCambios
 rm DP_ControldeCambios_Grupo2-v1_1.pdf #elimino el archivo
@@ -106,22 +107,39 @@ git add .
 git commit -m "Ejercicio 8 finalizado. Pdf eliminado"
 
 
-#Ejercicio 9
+#EJERCICIO 9
 git tag -a R2 -m "Estado del repositorio: R2" #Usamos una etiqueta anotada para marcar el estado actual del directorio
-
+ 
 git add .
 git commit -m "Ejercicio 9 finalizado. Etiqueta R2 creada"
 
 
-#Ejercicio 10
+#EJERCICIO 10
 cd Procesos
 cd ControlDeCambios
 git add DP_ControldeCambios_Grupo2-v3.docx
 cd ..
 cd ..
-git commit -m "Ejercicio 6 finalizado. Documentos actualizados a su siguiente versión"
+git commit -m "Ejercicio 10 finalizado. Documentos actualizados a su siguiente versión"
 
 
-#Ejercicio 11
+#EJERCICIO 11
 git add .
-git commit "Historial actualizado" #actualizamos el historial
+git commit -m "Historial actualizado" #actualizamos el historial
+
+git checkout R2 #volvemos a la version de la etiqueta R2
+
+cd Procesos
+cd ControlDeCambios
+git add DP_ControldeCambios_Grupo2-v3.docx
+git add DP_Plantillas_ControldeCambios_Grupo2-v3.xlsx #es el mismo documento que antes, no tenemos mas versiones
+cd ..
+cd ..
+git commit -m "Ejercicio 11 finalizado. Vuelta a la etiqueta R2. Documentos actualizados a su siguiente versión"
+
+git tag -a R3 -m "Estado del repositorio: R3" #Usamos una etiqueta anotada para marcar el estado actual del directorio
+git commit -m "Ejercicio 11 finalizado. Etiqueta R3 creada"
+
+#Ejercicio 12
+git add .
+git commit -m "Historial actualizado" #actualizamos el historial
