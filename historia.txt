@@ -95,7 +95,6 @@ git add .
 git commit -m "Ejercicio 7 finalizado. Ambas ramas fundidas en el main. Mejoras eliminado"
 
 
-
 #Ejercicio 8
 cd Procesos
 cd ControlDeCambios
@@ -107,3 +106,8 @@ git add .
 git commit -m "Ejercicio 8 finalizado. Pdf eliminado"
 
 
+#Ejercicio 9
+git tag -a R2 -m "Estado del repositorio: R2" #Usamos una etiqueta anotada para marcar el estado actual del directorio
+
+git add .
+git commit -m "Ejercicio 4 finalizado. Etiqueta creada"

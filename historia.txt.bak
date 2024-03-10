@@ -97,5 +97,13 @@ git commit -m "Ejercicio 7 finalizado. Ambas ramas fundidas en el main. Mejoras 
 
 
 #Ejercicio 8
+cd Procesos
+cd ControlDeCambios
+rm DP_ControldeCambios_Grupo2-v1_1.pdf #elimino el archivo
+cd ..
+cd ..
+
+git add .
+git commit -m "Ejercicio 8 finalizado. Pdf eliminado"
 
 
