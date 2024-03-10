@@ -84,7 +84,7 @@ git commit -m "Ejercicio 6 finalizado. Documentos actualizados a su siguiente ve
 
 #Ejercicio 7
 git add .
-git commit "Historial actualizado" #actualizamos el historial primero
+git commit -m "Historial actualizado" #actualizamos el historial primero
 
 git checkout master #cambiamos de rama al main
 git merge Mejoras #hacemos el merge. No habrá conflictos ya que los documentos tienen diferente nombre. Así que los cambios se aceptan automáticamente
@@ -120,3 +120,8 @@ git add DP_ControldeCambios_Grupo2-v3.docx
 cd ..
 cd ..
 git commit -m "Ejercicio 6 finalizado. Documentos actualizados a su siguiente versión"
+
+
+#Ejercicio 11
+git add .
+git commit "Historial actualizado" #actualizamos el historial

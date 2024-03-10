@@ -51,7 +51,7 @@ git commit -m "Ejercicio 4 finalizado. Etiqueta creada"
 cd Procesos
 cd ControlDeCambios
 
-git add DP_Plantillas_ControldeCambios_Grupo2-v2..xlsx
+git add DP_Plantillas_ControldeCambios_Grupo2-v2.xlsx
 git commit -m "Plantillas añadidas, por tanto ejericico 1 CORREGIDO"
 
 cd ..
@@ -62,7 +62,7 @@ cd ..
 git checkout -b Mejoras #creamos la rama mejoras y saltamos a ella
 cd Procesos
 cd ControlDeCambios
-git add DP_ControldeCambios_Grupo2-v1_1
+git add DP_ControldeCambios_Grupo2-v1_1.pdf
 cd ..
 cd ..
 git commit -m "Ejercicio 5 completado. Rama Mejoras añadida junto con el pdf"
@@ -75,7 +75,7 @@ git commit "Historial actualizado"
 #EJERICIO 6
 cd Procesos
 cd ControlDeCambios
-git add DP_ControldeCambios_Grupo2-v3_1
+git add DP_ControldeCambios_Grupo2-v3_1.xlsx
 git add DP_ControldeCambios_Grupo2-v2.docx
 cd ..
 cd ..
@@ -111,3 +111,17 @@ git tag -a R2 -m "Estado del repositorio: R2" #Usamos una etiqueta anotada para 
 
 git add .
 git commit -m "Ejercicio 9 finalizado. Etiqueta R2 creada"
+
+
+#Ejercicio 10
+cd Procesos
+cd ControlDeCambios
+git add DP_ControldeCambios_Grupo2-v3.docx
+cd ..
+cd ..
+git commit -m "Ejercicio 6 finalizado. Documentos actualizados a su siguiente versión"
+
+
+#Ejercicio 11
+git add .
+git commit "Historial actualizado" #actualizamos el historial
